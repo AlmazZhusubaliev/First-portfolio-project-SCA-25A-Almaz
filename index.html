@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sagar Shah | Full Stack Developer</title>
+  <meta name="description" content="Personal portfolio of Sagar Shah, full stack developer (React.js & Node.js).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="logo">&lt;SS /&gt;</a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#work" class="nav-link">Work</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <span class="nav-divider"></span>
+        <button class="theme-btn" type="button" aria-label="Switch theme">
+          <img src="images/skills/Sun.png" alt="SUN" class="icon-sun">
+          <img src="images/skills/Moon.png" alt="MOON" class="icon-moon">
+        </button>
+        <a href="#contact" class="btn-cv">Download CV</a>
+      </nav>
+
+      <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false">
+        <img src="images/skills/Burger.png" alt="Location">
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ MOBILE MENU ============ -->
+  <div class="overlay" id="overlay"></div>
+  <aside class="drawer" id="drawer" aria-label="Mobile menu" aria-hidden="true">
+    <div class="drawer-head">
+      <a href="#top" class="logo drawer-link">&lt;SS /&gt;</a>
+      <button class="drawer-close" id="drawer-close" type="button" aria-label="Close menu">
+        <img src="images/skills/Close.png" alt="Close">
+      </button>
+    </div>
+    <ul class="drawer-list">
+      <li><a href="#about" class="drawer-link">About</a></li>
+      <li><a href="#work" class="drawer-link">Work</a></li>
+      <li><a href="#testimonials" class="drawer-link">Testimonials</a></li>
+      <li><a href="#contact" class="drawer-link">Contact</a></li>
+    </ul>
+    <div class="drawer-theme">
+      <span>Switch Theme</span>
+      <button class="theme-btn" type="button" aria-label="Switch theme">
+        <img src="images/skills/Sun.png" alt="SUN" class="icon-sun">
+        <img src="images/skills/Moon.png" alt="MOON" class="icon-moon">
+      </button>
+    </div>
+    <a href="#contact" class="btn-cv drawer-link drawer-cv">Download CV</a>
+  </aside>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-label="Introduction">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Hi, I’m Sagar <span class="wave">👋</span></h1>
+          <p class="hero-desc">I'm a full stack developer (React.js &amp; Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 7 years, I still love it as if it was something new.</p>
+          <ul class="hero-meta">
+            <li>
+              <img src="images/skills/GPS.png" alt="">
+              <span>Ahmedabad, India</span>
+            </li>
+            <li><span class="dot"></span><span>Available for new projects</span></li>
+          </ul>
+          <ul class="social">
+            <li><a href="https://github.com" target="_blank" aria-label="GitHub"><img src="images/skills/GitHub.png" alt="GitHub"></a></li>
+            <li><a href="https://twitter.com" target="_blank" aria-label="Twitter"><img src="images/skills/X.png" alt="X"></a></li>
+            <li><a href="https://www.figma.com" target="_blank" aria-label="Figma"><img src="images/skills/figgma.png" alt="Figma"></a></li>
+          </ul>
+        </div>
+        <div class="photo hero-photo">
+          <img src="images/hero.png" alt="Portrait of Sagar Shah" width="225" height="259">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section alt about" id="about">
+      <div class="container">
+        <div class="pill-wrap"><span class="pill">About me</span></div>
+        <div class="about-grid">
+          <div class="photo about-photo">
+            <img src="images/about.png" alt="Sagar Shah standing on a garden path" width="328" height="396">
+          </div>
+          <div class="about-text">
+            <h2>Curious about me? Here you have it:</h2>
+            <p>I'm a passionate, <a href="https://www.figma.com" target="_blank" class="ul">self-proclaimed designer</a> who specializes in full stack development (React.js &amp; Node.js). I am very enthusiastic about bringing the technical and visual aspects of digital products to life. User experience, pixel perfect design, and writing clear, readable, highly performant code matters to me.</p>
+            <p>I began my journey as a web developer in 2015, and since then, I've continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies along the way. Now, in my early thirties, 7 years after starting my web development journey, I'm building cutting-edge web applications using modern technologies such as Next.js, TypeScript, Nestjs, Tailwindcss, Supabase and much more.</p>
+            <p>I am very much a progressive thinker and enjoy working on products end to end, from ideation all the way to development.</p>
+            <p>When I'm not in full-on developer mode, you can find me hovering around on twitter or on indie hacker, witnessing the journey of early startups or enjoying some free time. You can follow me on <a href="https://twitter.com" target="_blank" class="ul">Twitter</a> where I share tech-related bites and build in public, or you can follow me on <a href="https://github.com" target="_blank" class="ul">GitHub</a>.</p>
+            <p>Finally, some quick bits about me.</p>
+            <ul class="bits">
+              <li>B.E. in Computer Engineering</li>
+              <li>Avid learner</li>
+              <li>Full time freelancer</li>
+              <li>Aspiring indie hacker</li>
+            </ul>
+            <p>One last thing, I'm available for freelance work, so feel free to reach out and say hello! I promise I don't bite 😉</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="pill-wrap"><span class="pill">Skills</span></div>
+        <p class="section-sub">The skills, tools and technologies I am really good at:</p>
+        <ul class="skills-grid">
+          <li><img src="images/skills/javscript.svg" alt="" width="68" height="68"><span>Javascript</span></li>
+          <li><img src="images/skills/typescript.svg" alt="" width="68" height="68"><span>Typescript</span></li>
+          <li><img src="images/skills/react.png" alt="" width="68" height="68"><span>React</span></li>
+          <li><img class="inv" src="images/skills/nextjs.png" alt="" width="68" height="68"><span>Next.js</span></li>
+          <li><img src="images/skills/nodejs.svg" alt="" width="68" height="68"><span>Node.js</span></li>
+          <li><img class="inv" src="images/skills/express.svg" alt="" width="68" height="68"><span>Express.js</span></li>
+          <li><img src="images/skills/nestjs.svg" alt="" width="68" height="68"><span>Nest.js</span></li>
+          <li><img class="inv" src="images/skills/socketio.png" alt="" width="68" height="68"><span>Socket.io</span></li>
+          <li><img src="images/skills/postgresql.svg" alt="" width="68" height="68"><span>PostgreSQL</span></li>
+          <li><img src="images/skills/mongodb.svg" alt="" width="68" height="68"><span>MongoDB</span></li>
+          <li><img src="images/skills/sass.png" alt="" width="68" height="68"><span>Sass/Scss</span></li>
+          <li><img src="images/skills/tailwind.png" alt="" width="68" height="68"><span>Tailwindcss</span></li>
+          <li><img src="images/skills/icon-figma.svg" alt="" width="68" height="68"><span>Figma</span></li>
+          <li><img src="images/skills/cypress.svg" alt="" width="68" height="68"><span>Cypress</span></li>
+          <li><img src="images/skills/icon-storybook.svg" alt="" width="68" height="68"><span>Storybook</span></li>
+          <li><img src="images/skills/git.svg" alt="" width="68" height="68"><span>Git</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section alt" id="experience">
+      <div class="container">
+        <div class="pill-wrap"><span class="pill">Experience</span></div>
+        <p class="section-sub">Here is a quick summary of my most recent experiences:</p>
+        <div class="exp-list">
+          <article class="exp-card">
+            <img class="exp-logo" src="images/upwork.png" alt="Upwork" width="88">
+            <div class="exp-body">
+              <h3>Sr. Frontend Developer</h3>
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Ut pretium arcu et massa semper, id fringilla leo semper.</li>
+                <li>Sed quis justo ac magna.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              </ul>
+            </div>
+            <span class="exp-date">Nov 2021 - Present</span>
+          </article>
+          <article class="exp-card">
+            <img class="exp-logo" src="images/upwork.png" alt="Upwork" width="88">
+            <div class="exp-body">
+              <h3>Team Lead</h3>
+              <ul>
+                <li>Sed quis justo ac magna.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Sed quis justo ac magna.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              </ul>
+            </div>
+            <span class="exp-date">Jul 2017 - Oct 2021</span>
+          </article>
+          <article class="exp-card">
+            <img class="exp-logo" src="images/upwork.png" alt="Upwork" width="88">
+            <div class="exp-body">
+              <h3>Full Stack Developer</h3>
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              </ul>
+            </div>
+            <span class="exp-date">Dec 2015 - May 2017</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="pill-wrap"><span class="pill">Work</span></div>
+        <p class="section-sub">Some of the noteworthy projects I have built:</p>
+
+        
+
+        <div class="work-list" id="work-list">
+          <article class="project" data-details="Fiskil is an open finance platform that lets developers connect their product to banks and financial data through one simple API. I built the marketing website and the developer dashboard: responsive layouts, a component library documented in Storybook, and end-to-end tests with Cypress.">
+            <div class="project-media">
+              <img src="images/project.svg" alt="Fiskil project preview" width="409" height="327">
+            </div>
+            <div class="project-body">
+              <h3>Fiskil</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+              <ul class="tags">
+                <li><button type="button" class="tag">React</button></li>
+                <li><button type="button" class="tag">Next.js</button></li>
+                <li><button type="button" class="tag">Typescript</button></li>
+                <li><button type="button" class="tag">Nest.js</button></li>
+                <li><button type="button" class="tag">PostgreSQL</button></li>
+                <li><button type="button" class="tag">Tailwindcss</button></li>
+                <li><button type="button" class="tag">Figma</button></li>
+                <li><button type="button" class="tag">Cypress</button></li>
+                <li><button type="button" class="tag">Storybook</button></li>
+                <li><button type="button" class="tag">Git</button></li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://google.com" target="_blank" rel="noopener noreferrer" class="ext" aria-label="Open project in a new tab"><img src="images/skills/Share.png" alt="Share"></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reverse" data-details="A second iteration of the Fiskil product site focused on performance and accessibility. Server-rendered pages with Next.js, a typed design system with Tailwindcss, and a PostgreSQL backed content API.">
+            <div class="project-media">
+              <img src="images/project.svg" alt="Fiskil project preview" width="409" height="327">
+            </div>
+            <div class="project-body">
+              <h3>Fiskil</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+              <ul class="tags">
+                <li><button type="button" class="tag">React</button></li>
+                <li><button type="button" class="tag">Next.js</button></li>
+                <li><button type="button" class="tag">Typescript</button></li>
+                <li><button type="button" class="tag">Nest.js</button></li>
+                <li><button type="button" class="tag">PostgreSQL</button></li>
+                <li><button type="button" class="tag">Tailwindcss</button></li>
+                <li><button type="button" class="tag">Figma</button></li>
+                <li><button type="button" class="tag">Cypress</button></li>
+                <li><button type="button" class="tag">Storybook</button></li>
+                <li><button type="button" class="tag">Git</button></li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://google.com" target="_blank" rel="noopener noreferrer" class="ext" aria-label="Open project in a new tab"><img src="images/skills/Share.png" alt="Share"></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project" data-details="A dashboard and API layer for the Fiskil team. Nest.js services, shared Typescript types between front end and back end, Figma-to-code handoff, and a Cypress regression suite that runs on every pull request.">
+            <div class="project-media">
+              <img src="images/project.svg" alt="Fiskil project preview" width="409" height="327">
+            </div>
+            <div class="project-body">
+              <h3>Fiskil</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+              <ul class="tags">
+                <li><button type="button" class="tag">React</button></li>
+                <li><button type="button" class="tag">Next.js</button></li>
+                <li><button type="button" class="tag">Typescript</button></li>
+                <li><button type="button" class="tag">Nest.js</button></li>
+                <li><button type="button" class="tag">PostgreSQL</button></li>
+                <li><button type="button" class="tag">Tailwindcss</button></li>
+                <li><button type="button" class="tag">Figma</button></li>
+                <li><button type="button" class="tag">Cypress</button></li>
+                <li><button type="button" class="tag">Storybook</button></li>
+                <li><button type="button" class="tag">Git</button></li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://google.com" target="_blank" rel="noopener noreferrer" class="ext" aria-label="Open project in a new tab"><img src="images/skills/Share.png" alt="Share"></a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <p class="no-results" id="no-results" hidden>No projects found. Try another technology or search term.</p>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section alt" id="testimonials">
+      <div class="container">
+        <div class="pill-wrap"><span class="pill">Testimonials</span></div>
+        <p class="section-sub">Nice things people have said about me:</p>
+        <div class="testi-grid">
+          <article class="testi-card">
+            <img src="images/avatar.png" alt="" width="55" height="55">
+            <p>“Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.”</p>
+            <h3>John Doe</h3>
+            <span>Founder - xyz.com</span>
+          </article>
+          <article class="testi-card">
+            <img src="images/avatar.png" alt="" width="55" height="55">
+            <p>“Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.”</p>
+            <h3>John Doe</h3>
+            <span>Founder - abc.com</span>
+          </article>
+          <article class="testi-card">
+            <img src="images/avatar.png" alt="" width="55" height="55">
+            <p>“Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.”</p>
+            <h3>John Doe</h3>
+            <span>Freelancer</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="pill-wrap"><span class="pill">Get in touch</span></div>
+        <p class="section-sub contact-sub">What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.</p>
+
+        <div class="contact-rows">
+          <div class="contact-row">
+            <img src="images/skills/POCHTA.png" alt="email" class="c-icon">
+            <a href="mailto:reachsagarshah@gmail.com" class="c-text">reachsagarshah@gmail.com</a>
+            <button type="button" class="copy-btn" data-copy="reachsagarshah@gmail.com" aria-label="Copy email">
+              <img src="images/skills/Copy.png" alt="copy-btn">
+            </button>
+          </div>
+          <div class="contact-row">
+            <img src="images/skills/Telephone.png" alt="phone" class="c-icon">
+            <a href="tel:+918980500565" class="c-text">+91 8980500565</a>
+            <button type="button" class="copy-btn" data-copy="+91 8980500565" aria-label="Copy phone number">
+              <img src="images/skills/Copy.png" alt="copy-btn">
+            </button>
+          </div>
+        </div>
+
+        <p class="platforms">You may also find me on these platforms!</p>
+        <ul class="social social-center">
+          <li><a href="https://github.com" target="_blank" aria-label="GitHub"><img src="images/skills/GitHub.png" alt="GitHub"></a></li>
+          <li><a href="https://twitter.com" target="_blank" aria-label="Twitter"><img src="images/skills/X.png" alt="X"></a></li>
+          <li><a href="https://www.figma.com" target="_blank" aria-label="Figma"><img src="images/skills/figgma.png" alt="Figma"></a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <p>
+      <img src="images/skills/author.png" alt="" class="copy-ico">
+      2023 | <a href="#top" class="ul">Designed</a> and <a href="#top" class="ul">coded</a> with <span class="heart">♥</span> by Sagar Shah
+    </p>
+  </footer>
+
+  <!-- ============ SCROLL TO TOP ============ -->
+  <button class="to-top" id="to-top" type="button" aria-label="Scroll to top">
+    🠕
+  </button>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
