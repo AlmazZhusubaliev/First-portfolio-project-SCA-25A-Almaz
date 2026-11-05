@@ -16,7 +16,7 @@ try {
   }
 } catch (e) {}
 
-for (const i = 0; i < themeButtons.length; i++) {
+for (let i = 0; i < themeButtons.length; i++) {
   themeButtons[i].addEventListener('click', function () {
     const current = root.getAttribute('data-theme');
     setTheme(current === 'dark' ? 'light' : 'dark');
@@ -50,7 +50,7 @@ burger.addEventListener('click', openMenu);
 drawerClose.addEventListener('click', closeMenu);
 overlay.addEventListener('click', closeMenu);
 
-for (const j = 0; j < drawerLinks.length; j++) {
+for (let j = 0; j < drawerLinks.length; j++) {
   drawerLinks[j].addEventListener('click', closeMenu);
 }
 
@@ -94,7 +94,7 @@ function fallbackCopy(text) {
   document.body.removeChild(area);
 }
 
-for (const r = 0; r < copyButtons.length; r++) {
+for (let r = 0; r < copyButtons.length; r++) {
   copyButtons[r].addEventListener('click', function () {
     const btn = this;
     const text = btn.getAttribute('data-copy');
