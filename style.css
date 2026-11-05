@@ -782,12 +782,6 @@ button {
   margin-bottom: 21px;
 }
 
-.project-body > p {
-  font-size: 14px;
-  line-height: 20.5px;
-  color: var(--text-soft);
-}
-
 .tags {
   display: flex;
   flex-wrap: wrap;
